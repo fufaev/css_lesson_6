@@ -139,4 +139,10 @@ body {
   line-height: 11px;
   color: #666666;
 }
+.form-submit {
+  margin-top: 0;
+  margin-bottom: 0;
+  padding-top: 39px;
+  padding-left: 36px;
+}
 
