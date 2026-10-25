@@ -130,4 +130,13 @@ body {
   line-height: 12px;
   color: #a7a7a7;
 }
+.city-hint {
+  margin-top: 6px;
+  margin-bottom: 0;
+  margin-left: 76px;
+  font-size: 10px;
+  font-weight: bold;
+  line-height: 11px;
+  color: #666666;
+}
 
