@@ -145,4 +145,44 @@ body {
   padding-top: 39px;
   padding-left: 36px;
 }
+.form-submit button {
+  display: block;
+  box-sizing: border-box;
+  width: 190px;
+  height: 22px;
+  padding-top: 0;
+  padding-right: 0;
+  padding-bottom: 0;
+  padding-left: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 13.333px;
+  color: #000000;
+  background-color: #f0f0f0;
+  border-width: 2px;
+  border-style: solid;
+  border-color: #a6a6a6;
+  cursor: pointer;
+}
+
+.form-submit button:hover {
+  background-color: #e5e5e5;
+}
+
+.agree {
+  margin-top: 8px;
+  margin-bottom: 0;
+  margin-left: 36px;
+  font-size: 10px;
+  line-height: 12px;
+  color: #a7a7a7;
+}
+
+.agree a {
+  color: #3c4c5a;
+  text-decoration-line: none;
+}
+
+.agree a:hover {
+  text-decoration-line: underline;
+}
 
