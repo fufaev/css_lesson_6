@@ -16,7 +16,6 @@ body {
   border-bottom-style: solid;
   border-bottom-color: #e9eaec;
 }
-
 .page-header h1 {
   margin-top: 0;
   margin-bottom: 0;
@@ -36,14 +35,12 @@ body {
   padding-top: 14px;
   padding-left: 5px;
 }
-
 .intro img {
   display: block;
   flex-shrink: 0;
   margin-top: 4px;
   margin-right: 8px;
 }
-
 .intro-text {
   max-width: 650px;
   font-size: 13px;
@@ -93,11 +90,9 @@ body {
   margin-top: 0;
   margin-bottom: 0;
 }
-
 .row + .row {
   margin-top: 10px;
 }
-
 .row label {
   flex-shrink: 0;
   width: 67px;
@@ -106,3 +101,33 @@ body {
   line-height: 15px;
   color: #666666;
 }
+.row input,
+.row select {
+  box-sizing: border-box;
+  width: 150px;
+  height: 22px;
+  margin-top: 0;
+  margin-right: 0;
+  margin-bottom: 0;
+  margin-left: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 13.333px;
+  color: #000000;
+  background-color: #ffffff;
+  border-width: 1px;
+  border-style: solid;
+  border-color: #c6c7c8;
+}
+.row input {
+  padding-top: 0;
+  padding-bottom: 0;
+  padding-left: 3px;
+  padding-right: 3px;
+}
+.hint {
+  margin-left: 10px;
+  font-size: 10px;
+  line-height: 12px;
+  color: #a7a7a7;
+}
+
