@@ -49,3 +49,40 @@ body {
   font-size: 13px;
   line-height: 0.95;
 }
+.form-section {
+  padding-top: 25px;
+}
+
+.form-section:first-child {
+  padding-top: 23px;
+}
+
+.form-subsection {
+  padding-top: 25px;
+}
+
+.form-section h2,
+.form-subsection h3 {
+  margin-top: 0;
+  margin-bottom: 14px;
+  padding-top: 0;
+  padding-bottom: 13px;
+  padding-left: 5px;
+  font-weight: bold;
+  color: #5d7190;
+  border-bottom-width: 1px;
+  border-bottom-style: solid;
+  border-bottom-color: #e9eaec;
+}
+
+.form-section h2 {
+  padding-top: 1px;
+  padding-bottom: 12px;
+  font-size: 16px;
+  line-height: 20px;
+}
+
+.form-subsection h3 {
+  font-size: 13px;
+  line-height: 16px;
+}
