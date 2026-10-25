@@ -86,3 +86,23 @@ body {
   font-size: 13px;
   line-height: 16px;
 }
+.row {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+.row + .row {
+  margin-top: 10px;
+}
+
+.row label {
+  flex-shrink: 0;
+  width: 67px;
+  margin-right: 9px;
+  text-align: right;
+  line-height: 15px;
+  color: #666666;
+}
