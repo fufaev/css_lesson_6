@@ -1,0 +1,376 @@
+body {
+  font-family: Tahoma, Arial, Verdana, sans-serif;
+  font-size: 16px;
+}
+
+h1,
+h2,
+h3 {
+  border-bottom: 1px #e9eaec solid;
+}
+
+h2,
+h3 {
+  color: #587399;
+}
+
+h1 {
+  color: #2b587a;
+  font-weight: 400;
+  font-size: 22px;
+  padding-top: 10px;
+  padding-bottom: 14px;
+  padding-left: 6px;
+  letter-spacing: 0.65px;
+}
+
+h2 {
+  font-size: 18px;
+}
+
+fieldset {
+  /* Убирает рамку */
+  border: none;
+  /* Сбрасывает внутренние отступы браузера по умолчанию */
+  padding: 0;
+  margin: 0;
+}
+
+.block_description {
+  display: flex;
+  gap: 12px;
+  padding-left: 6px;
+  padding-right: 7px;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  line-height: 1.05;
+  max-width: 780px;
+}
+
+.block_description_img {
+  flex-shrink: 0;
+}
+
+.block_description_img img {
+  width: 36px;
+  height: 36px;
+  position: relative;
+  margin-top: 5px;
+}
+
+.block_description_text {
+  letter-spacing: 0.63px;
+  font-size: 15px;
+}
+
+.block_description_text span {
+  font-weight: 600;
+}
+
+.main_form {
+  margin-bottom: 160px;
+}
+
+.main_form label {
+  color: #6b6d73;
+}
+
+/* Блок 1: Имя */
+.main_form legend {
+  color: #58729a;
+  font-weight: 600;
+}
+
+.main_form input {
+  border-radius: 0;
+  /* Дополнительно для Safari/iOS: */
+  -webkit-appearance: none;
+  appearance: none;
+}
+
+.block_name_title {
+  padding-top: 4px;
+  padding-bottom: 11px;
+  padding-left: 7px;
+  letter-spacing: 1.2px;
+}
+
+.block_name_title_name {
+  margin-bottom: 16px;
+}
+
+.block_name {
+  margin-bottom: 12px;
+}
+
+.block_name div {
+  display: grid;
+  /* 1-я колонка (подписи): фиксированная ширина 80px и выравнивание по правому краю */
+  /* 2-я колонка (инпуты): занимает авто-размер по контенту или фиксированный */
+  /* 3-я колонка (подсказки): занимает всё оставшееся место */
+  grid-template-columns: 75px auto 1fr;
+
+  /* Выравниваем элементы внутри строки по вертикали */
+  align-items: center;
+  /* Отступы между колонками */
+  gap: 8px 10px;
+  /* Отступы между строками */
+  padding-bottom: 10px;
+}
+
+/* Выравниваем текст подписей по правому краю */
+.block_name label {
+  text-align: right;
+  font-size: 14px;
+  letter-spacing: 1px;
+}
+
+.block_name input {
+  /* Задаем фиксированную ширину полям ввода, чтобы они были одинаковыми */
+  width: 166px;
+  /* Чтобы padding не раздувал ширину инпута */
+  box-sizing: border-box;
+  height: 25px;
+  border: 1px #777777 solid;
+  font-size: 12px;
+}
+
+/* Оформляем подсказки*/
+.block_name span {
+  color: #777777;
+  font-size: 11px;
+  letter-spacing: 0.8px;
+  margin-left: 2px;
+  margin-top: 2px;
+}
+
+.block_name_title_aducation {
+  margin-bottom: 17px;
+}
+
+.block_aducation {
+  display: grid;
+  margin-bottom: 17px;
+}
+
+.block_aducation_country {
+  display: grid;
+  grid-template-columns: 75px auto;
+  gap: 0 10px;
+  margin-bottom: 11px;
+  align-items: center;
+}
+
+.block_aducation_country label {
+  font-size: 14px;
+  letter-spacing: 1px;
+}
+
+.block_aducation_country select {
+  font-size: 14px;
+  letter-spacing: 0.4px;
+}
+
+.block_aducation_city {
+  display: grid;
+  grid-template-columns: 75px auto;
+  gap: 0 10px;
+  margin-bottom: 23px;
+  align-items: center;
+}
+
+.block_aducation_city label {
+  font-size: 14px;
+  letter-spacing: 1px;
+  margin-top: -4px;
+}
+
+.block_aducation_city select {
+  margin-bottom: 2px;
+  font-size: 14px;
+  letter-spacing: 0.4px;
+  margin-bottom: 3px;
+}
+
+.block_aducation_city_note {
+  grid-column: 2;
+  font-size: 11px;
+  font-weight: 600;
+  letter-spacing: 0.8px;
+  color: #6b6d73;
+}
+
+.block_aducation select {
+  width: 166px;
+  box-sizing: border-box;
+  height: 25px;
+  border: 1px #777777 solid;
+  /* letter-spacing: -0.6px; */
+}
+
+.block_aducation label {
+  text-align: right;
+}
+
+.block_name_subtitle {
+  padding-left: 7px;
+  letter-spacing: 0.7px;
+  font-size: 15px;
+}
+
+.block_aducation .block_name_subtitle {
+  padding-bottom: 12px;
+  margin-bottom: 16px;
+}
+
+.block_school_menu {
+  display: grid;
+  grid-template-columns: 75px auto;
+  gap: 0 10px;
+  margin-bottom: 25px;
+  align-items: center;
+}
+
+.block_school_menu label {
+  font-size: 14px;
+  letter-spacing: 1px;
+}
+
+.block_school_menu select {
+  font-size: 14px;
+  letter-spacing: 0.3px;
+}
+
+.block_university_menu {
+  display: grid;
+  grid-template-columns: 75px auto;
+  gap: 0 10px;
+  margin-bottom: 25px;
+  align-items: center;
+}
+
+.block_university_menu label {
+  font-size: 14px;
+  letter-spacing: 1.2px;
+}
+
+.block_university_menu select {
+  font-size: 14px;
+  letter-spacing: 0.3px;
+}
+
+.block_submit {
+  margin-left: 42px;
+}
+
+.block_submit button {
+  border: 2px #a6a6a6 solid;
+  background-color: #f0f0f0;
+  padding: 3px 36px 3px 36px;
+  line-height: 1;
+  font-size: 15px;
+  margin-bottom: 6px;
+}
+
+.block_submit p {
+  font-size: 11px;
+  letter-spacing: 0.8px;
+  color: #777777;
+}
+
+.block_submit p a {
+  color: #1d3d65;
+}
+
+/* --- АДАПТИВНОСТЬ МЕДИА-ЗАПРОС ДЛЯ МОБИЛЬНЫХ УСТРОЙСТВ (< 480px) --- */
+@media (max-width: 479px) {
+  main {
+    padding: 10px;
+  }
+
+  .main_form {
+    margin-bottom: 0px;
+  }
+
+  /* Адаптив описания ВКонтакте (иконка + текст) */
+  .block_description {
+    /* Меняем направление на column */
+    flex-direction: column;
+    gap: 8px;
+    padding-left: 0;
+    padding-right: 0;
+    text-align: justify;
+  }
+
+  .block_description_img img {
+    /* Убираем сдвиг иконки сверху */
+    margin-top: 0;
+  }
+
+  /* Переводим строки блока "Имя" в одну колонку */
+  .block_name div {
+    /* Переключаем на одну колонку */
+    grid-template-columns: 1fr;
+    /* Уменьшаем отступы по вертикали */
+    gap: 4px 0;
+  }
+
+  /* Переводим строки блока "Образование" в одну колонку */
+  .block_aducation_country,
+  .block_aducation_city,
+  .block_school_menu,
+  .block_university_menu {
+    /* Переключаем на одну колонку */
+    grid-template-columns: 1fr;
+    gap: 4px 0;
+    /* Выравниваем шаг между полями */
+    margin-bottom: 15px;
+  }
+
+  /* Выравнивание подсказок (label) */
+  .block_name label,
+  .block_aducation label {
+    /* Текст подсказки слева */
+    text-align: left;
+    font-size: 14px;
+  }
+
+  /* Сбрасываем привязку ко второй колонке для подсказки (тег p) */
+  .block_aducation_city_note {
+    grid-column: 1;
+    margin-top: 2px;
+  }
+
+  /* Растягиваем поля ввода и селекты на всю ширину экрана */
+  .block_name input,
+  .block_aducation select {
+    width: 100%;
+    max-width: 100%;
+    height: 32px;
+  }
+
+  .block_aducation .block_name_subtitle,
+  .block_name_title_name,
+  .block_name_title_aducation {
+    margin-bottom: 5px;
+  }
+
+  /* Блок с кнопкой */
+  .block_submit {
+    margin-left: 0;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+
+  .block_submit button {
+    width: 100%;
+    /* Увеличиваем высоту кнопки */
+    padding: 10px 0;
+    font-size: 16px;
+  }
+
+  .block_submit p {
+    text-align: justify;
+  }
+}
