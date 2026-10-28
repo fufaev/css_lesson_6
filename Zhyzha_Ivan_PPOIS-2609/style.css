@@ -1,0 +1,269 @@
+
+body {
+    margin-top: 0;
+    margin-right: 0;
+    margin-bottom: 0;
+    margin-left: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    color: #666666;
+    background-color: #ffffff;
+}
+
+.registration {
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+.registration h1 {
+    margin-top: 0;
+    margin-bottom: 0;
+    padding-top: 14px;
+    padding-bottom: 16px;
+    font-size: 20px;
+    font-weight: normal;
+    line-height: 23px;
+    color: #244a73;
+    border-bottom-width: 1px;
+    border-bottom-style: solid;
+    border-bottom-color: #e9eaec;
+    background-color: #ffffff;
+}
+
+.project-info {
+    display: flex;
+    align-items: flex-start;
+    column-gap: 10px;
+    padding-top: 15px;
+    padding-bottom: 17px;
+}
+
+.project-info img {
+    flex-shrink: 0;
+    margin-top: 3px;
+}
+
+.project-info p {
+    max-width: 690px;
+    margin-top: 0;
+    margin-bottom: 0;
+    font-size: 16px;
+    line-height: 16px;
+    color: #222222;
+    background-color: #ffffff;
+}
+
+.form-section {
+    margin-bottom: 21px;
+}
+
+.form-section h2 {
+    margin-top: 0;
+    margin-bottom: 11px;
+    padding-bottom: 8px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    font-weight: bold;
+    line-height: 17px;
+    color: #5a7594;
+    border-bottom-width: 1px;
+    border-bottom-style: solid;
+    border-bottom-color: #e9eaec;
+    background-color: #ffffff;
+}
+
+#personal-heading,
+#education-heading {
+    font-size: 18px;
+    line-height: 21px;
+}
+
+.form-row {
+    display: flex;
+    align-items: center;
+    min-height: 33px;
+}
+
+.form-row label {
+    flex-shrink: 0;
+    width: 64px;
+    margin-right: 10px;
+    text-align: right;
+}
+
+.form-row input,
+.form-row select {
+    box-sizing: border-box;
+    width: 157px;
+    height: 24px;
+    padding-left: 4px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    background-color: #ffffff;
+    border-width: 1px;
+    border-style: solid;
+    border-color: #cccccc;
+    color: #000000;
+}
+
+.form-hint {
+    margin-left: 10px;
+    font-size: 12px;
+    color: #aaaaaa;
+    background-color: #ffffff;
+}
+
+.city-hint {
+    margin-top: 0;
+    margin-bottom: 18px;
+    margin-left: 74px;
+    font-size: 12px;
+    font-weight: bold;
+    color: #666666;
+    background-color: #ffffff;
+}
+
+.form-actions {
+    margin-top: 33px;
+    margin-left: 32px;
+}
+
+.form-actions button {
+    box-sizing: border-box;
+    width: 199px;
+    height: 23px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    color: #222222;
+    background-color: #eeeeee;
+    border-width: 1px;
+    border-style: solid;
+    border-color: #999999;
+    cursor: pointer;
+}
+
+.registration-agreement {
+    margin-top: 8px;
+    margin-bottom: 0;
+    font-size: 12px;
+    color: #aaaaaa;
+    background-color: #ffffff;
+}
+
+.registration-agreement a {
+    color: #244a73;
+    text-decoration: none;
+    background-color: #ffffff;
+}
+
+.registration-agreement a:hover {
+    text-decoration: underline;
+}
+
+.registration h1,
+.form-section h2 {
+    margin-left: -5px;
+    margin-right: -5px;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+@media screen and (min-width: 480px) {
+    .registration h1 {
+        padding-top: 17px;
+        padding-bottom: 15px;
+    }
+
+    .form-section h2 {
+        padding-bottom: 11px;
+}
+
+    .registration-form > .form-section:first-child {
+        margin-bottom: 22px;
+    }
+
+    #education-heading {
+        padding-bottom: 13px;
+    }
+}
+
+@media screen and (max-width: 479px) {
+    .registration {
+        padding-left: 12px;
+        padding-right: 12px;
+    }
+
+    .registration h1,
+    .form-section h2 {
+        margin-left: -12px;
+        margin-right: -12px;
+        padding-left: 12px;
+        padding-right: 12px;
+    }
+
+    .project-info {
+        column-gap: 8px;
+        padding-top: 12px;
+        padding-bottom: 16px;
+    }
+
+    .project-info p {
+        min-width: 0;
+        max-width: none;
+        font-size: 14px;
+        line-height: 18px;
+    }
+
+    .form-section {
+        margin-bottom: 20px;
+    }
+
+    .form-row {
+        flex-direction: column;
+        align-items: stretch;
+        min-height: 0;
+        margin-bottom: 12px;
+    }
+
+    .form-row label {
+        width: auto;
+        margin-right: 0;
+        margin-bottom: 5px;
+        text-align: left;
+    }
+
+    .form-row input,
+    .form-row select {
+        width: 100%;
+        height: 36px;
+        font-size: 16px;
+    }
+
+    .form-hint {
+        margin-top: 5px;
+        margin-left: 0;
+        line-height: 16px;
+    }
+
+    .city-hint {
+        margin-top: -4px;
+        margin-bottom: 14px;
+        margin-left: 0;
+    }
+
+    .form-actions {
+        margin-top: 20px;
+        margin-left: 0;
+    }
+
+    .form-actions button {
+        width: 100%;
+        height: 38px;
+        font-size: 14px;
+    }
+
+    .registration-agreement {
+        font-size: 12px;
+        line-height: 16px;
+    }
+}

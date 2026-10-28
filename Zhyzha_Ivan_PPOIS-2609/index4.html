@@ -1,0 +1,146 @@
+
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ВКонтакте.ру | Регистрация</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <main class="registration">
+        <h1>Регистрация</h1>
+
+        <div class="project-info">
+            <img src="Vkontakte.gif"
+                 width="32"
+                 height="32"
+                 alt="Логотип ВКонтакте">
+
+            <p>
+                <strong>ВКонтакте.ру</strong> - сетевой проект,
+                который поможет Вам узнать больше о людях,
+                которые Вас окружают, а также найти
+                потерянных друзей и поддерживать с ними связь.
+                Вы сможете делиться информацией, ограничивая
+                круг лиц, которым она будет доступна.
+            </p>
+        </div>
+
+        <form class="registration-form">
+            <section class="form-section"
+                     aria-labelledby="personal-heading">
+
+                <h2 id="personal-heading">Имя</h2>
+
+                <div class="form-row">
+                    <label for="first-name">Имя:</label>
+                    <input type="text"
+                           id="first-name"
+                           name="first_name">
+                    <span class="form-hint">
+                        Допускаются только настоящие имя и фамилия
+                    </span>
+                </div>
+
+                <div class="form-row">
+                    <label for="last-name">Фамилия:</label>
+                    <input type="text"
+                           id="last-name"
+                           name="last_name">
+                    <span class="form-hint">
+                        Остальные регистрации будут удаляться
+                    </span>
+                </div>
+
+                <div class="form-row">
+                    <label for="email">E-Mail:</label>
+                    <input type="email"
+                           id="email"
+                           name="email">
+                </div>
+
+                <div class="form-row">
+                    <label for="password">Пароль:</label>
+                    <input type="password"
+                           id="password"
+                           name="password">
+                </div>
+            </section>
+
+            
+            <section class="form-section"
+                    aria-labelledby="education-heading">
+
+                <h2 id="education-heading">Образование</h2>
+
+                <div class="form-row">
+                    <label for="country">Страна:</label>
+                    <select id="country" name="country">
+                        <option value="by" selected>Беларусь</option>
+                        <option value="ru">Россия</option>
+                        <option value="ua">Украина</option>
+                        <option value="pl">Польша</option>
+                    </select>
+                </div>
+
+                <div class="form-row">
+                    <label for="city">Город:</label>
+                    <select id="city" name="city">
+                        <option value="minsk" selected>Могилёв</option>
+                        <option value="brest">Брест</option>
+                        <option value="grodno">Гродно</option>
+                        <option value="vitebsk">Витебск</option>
+                        <option value="vitebsk">Минск</option>
+                    </select>
+                </div>
+
+                <p class="city-hint">
+                    Город, где Вы учились в школе или вузе:
+                </p>
+            </section>
+
+            <section class="form-section"
+                    aria-labelledby="school-heading">
+
+                <h2 id="school-heading">Школа</h2>
+
+                <div class="form-row">
+                    <label for="school">Школа:</label>
+                    <select id="school" name="school">
+                        <option value="" selected>- Школа №24 -</option>
+                        <option value="school-1">Школа №1</option>
+                        <option value="school-2">Школа №2</option>
+                        <option value="school-3">Школа №3</option>
+                    </select>
+                </div>
+            </section>
+
+            <section class="form-section"
+                    aria-labelledby="university-heading">
+
+                <h2 id="university-heading">Университет</h2>
+
+                <div class="form-row">
+                    <label for="university">Вуз:</label>
+                    <select id="university" name="university">
+                        <option value="" selected>- БРУ -</option>
+                        <option value="bgu">БГУ</option>
+                        <option value="bguir">БГУИР</option>
+                        <option value="bntu">БНТУ</option>
+                    </select>
+                </div>
+            </section>
+
+            <div class="form-actions">
+                <button type="submit">Зарегистрироваться</button>
+
+                <p class="registration-agreement">
+                    Фактом регистрации Вы соглашаетесь с
+                    <a href="https://vk.com/terms">Пользовательским соглашением</a>
+                </p>
+            </div>
+        </form>
+    </main>
+</body>
+</html>
