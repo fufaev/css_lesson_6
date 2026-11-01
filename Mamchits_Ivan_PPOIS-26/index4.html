@@ -27,23 +27,23 @@
             <fieldset>
                 <legend class="name">Имя</legend>
                 <div class="form-main">
-                    <label>
+                    <label for="name">
                         <span class="label-text">Имя:</span>
-                        <input name="first-name" required>
+                        <input id="name" name="first-name" required>
                         <span class="hint">Допускаются только настоящие имя и фамилия</span>
                     </label>
-                    <label>
+                    <label for="second-name">
                         <span class="label-text">Фамилия:</span>
-                        <input name="second-name" required>
+                        <input id="second-name" name="second-name" required>
                         <span class="hint">Остальные регистрации будут удаляться</span>
                     </label>
-                    <label>
+                    <label for="email">
                         <span class="label-text">E-Mail:</span>
-                        <input type="email" name="email" required>
+                        <input id="email" type="email" name="email" required>
                     </label>
-                    <label>
+                    <label for="password">
                         <span class="label-text">Пароль:</span>
-                        <input type="password" name="password" required>
+                        <input id="password" type="password" name="password" required>
                     </label>
                 </div>
             </fieldset>
@@ -97,6 +97,8 @@
                             <span class="label-text">Вуз:</span>
                             <select name="university">
                                 <option value="" disabled selected hidden>- Выберите ВУЗ -</option>
+                                <option value="BSU">БГУ</option>
+                                <option value="BSMU">БГМУ</option>
                             </select>
                         </label>
                     </div>
