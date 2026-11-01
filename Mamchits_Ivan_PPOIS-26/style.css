@@ -1,0 +1,238 @@
+*, *::before, *::after {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+a {
+    text-decoration: none;
+}
+fieldset {
+    border: none;    
+    padding: 0;    
+    margin: 0;
+}
+body {
+    scroll-behavior: smooth;
+    text-rendering: optimizeSpeed;
+    background-color: #ffffff;
+    font-family: "Tahoma", sans-serif;
+}
+.registraition-container {
+    width: 100%;
+    border-radius: 10px;
+    margin-top: 5px;
+}
+header {
+    border-bottom: 1px solid #e5e5e5;
+}
+h1 {
+    font-size: 22px;
+    color: #2b4e73;
+    font-weight: 100;
+    padding-top: 12px;
+    padding-left: 8px;
+    padding-bottom: 22px;
+    letter-spacing: 2.2px;
+}
+section .project-info {
+    display: block;
+    overflow: hidden;
+    padding-left: 8px;
+}
+#logo {
+    display: block;
+    float: left;
+    padding-top: 23px;
+    width: 40px;
+    height: 64px;
+}
+.project-info p {
+    display: block;
+    float: left;
+    padding-top: 18px;
+    padding-left: 12px;
+    font-family: "Tahoma", sans-serif;
+    font-size: 16px;
+    letter-spacing: 1px;
+    word-spacing: 1.1px;
+    line-height: 17px;
+    max-width: 810px;
+    width: 100%;
+}
+.name {
+    font-family: "Tahoma", sans-serif;
+    font-size: 20px;
+    padding-top: 25px;
+    padding-left: 8px;
+    font-weight: 700;
+    letter-spacing: 1px;
+    color: #597496;
+    padding-bottom: 16px;
+}
+fieldset .form-main {
+    border-top: 1px solid #e5e5e5;
+    overflow: hidden;
+    display: block;
+    padding-top: 12px;
+}
+.form-main label {
+    display: block;
+    padding-top: 7px;  
+}
+.form-main label .label-text {
+    font-size: 17px;
+    display: inline-block;
+    padding: 0px;
+    padding-top: 2px;
+    text-align: right;
+    letter-spacing: 1.1px;
+    width: 85px;
+}
+.form-main label input {
+    margin-left: 4px;
+    height: 28px;
+    width: 188px;
+    display: inline-block;
+    text-align: center;
+    margin-bottom: 4px;
+}
+.form-main label span {
+    display: inline-block;
+    text-align: center;
+    padding-left: 7px;
+    font-size: 13px;
+    letter-spacing: 0.6px;
+    flex-wrap: wrap;  
+}
+.education {
+    font-family: "Tahoma", sans-serif;
+    padding-top: 27px;
+    font-size: 20px;
+    padding-left: 5px;
+    font-weight: 700;
+    letter-spacing: 1.5px;
+    color: #597496;
+    padding-bottom: 15px;
+}
+fieldset .form-education {
+    border-top: 1px solid #e5e5e5;
+    overflow: hidden;
+    display: block;
+    padding-top: 9px;
+}
+.form-education label {
+    display: block;
+    overflow: hidden;
+    padding-top: 9px;
+}
+.form-education label .label-text {
+    font-size: 17px;
+    display: inline-block;
+    padding: 0px;
+    text-align: right;
+    letter-spacing: 1px;
+    padding-top: 5px;
+    width: 85px;
+}
+.form-education label select {
+    margin-left: 5px;
+    height: 29px;
+    width: 188px;
+    display: inline-block;
+    text-align: left;
+    font-family: "Tahoma", sans-serif;
+    font-size: 17px;
+    letter-spacing: -0.4px;
+}
+.form-education .sub-hint {
+    display: block;
+    padding-left: 95px;
+    padding-top: 6px;
+    font-weight: bold;
+    letter-spacing: 0.5px;
+    font-size: 13px;
+}
+fieldset .school {
+    font-family: "Tahoma", sans-serif;
+    color: #597496;
+    padding-top: 31px;
+    padding-left: 6px;
+    letter-spacing: 0.7px;
+    font-weight: bold;
+    font-size: 17px;
+    padding-bottom: 17px;
+}
+fieldset .form-school {
+    display: block;
+    border-top: 1px solid #e5e5e5;
+    overflow: hidden;
+    padding-top: 17px;
+}
+.form-school label {
+    display: block;
+}
+.form-school label .label-text {
+    display: inline-block;
+    letter-spacing: 1.2px;
+    width: 85px;
+    text-align: right;
+}
+.form-school label select {
+    display: inline-block;
+    font-family: "Tahoma", sans-serif;
+    font-size: 17px;
+    height: 29px;
+    width: 188px;
+    margin-left: 5px;
+    letter-spacing: -0.4px;
+}
+fieldset .university {
+    font-family: "Tahoma", sans-serif;
+    color: #597496;
+    padding-top: 31px;
+    padding-left: 6px;
+    letter-spacing: 0.7px;
+    font-weight: bold;
+    font-size: 17px;
+    padding-bottom: 17px;
+}
+fieldset .form-university {
+    display: block;
+    border-top: 1px solid #e5e5e5;
+    overflow: hidden;
+    padding-top: 17px;
+}
+.form-university label {
+    display: block;
+}
+.form-university label .label-text{
+    display: inline-block;
+    letter-spacing: 1.2px;
+    width: 85px;
+    text-align: right;
+}
+.form-university label select {
+    display: inline-block;
+    font-family: "Tahoma", sans-serif;
+    font-size: 17px;
+    height: 29px;
+    width: 188px;
+    margin-left: 5px;
+    letter-spacing: -0.4px;
+}
+.form-footer button{
+    font-size: 16px;
+    text-align: center;
+    margin-left: 45px;
+    margin-top: 48px;
+    letter-spacing: 0.3px;
+    width: 240px;
+    height: 26px;
+}
+.form-footer p {
+    font-size: 13px;
+    padding-top: 9px;
+    padding-left: 46px;
+    letter-spacing: 0.6px;
+    padding-bottom: 268px;
+}
