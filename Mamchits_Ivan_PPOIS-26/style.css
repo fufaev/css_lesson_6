@@ -19,8 +19,10 @@ body {
 }
 .registraition-container {
     width: 100%;
+    max-width: 1905px;
+    background-color: white;
     border-radius: 10px;
-    margin-top: 5px;
+    padding-top: 5px;
 }
 header {
     border-bottom: 1px solid #e5e5e5;
@@ -35,20 +37,17 @@ h1 {
     letter-spacing: 2.2px;
 }
 section .project-info {
-    display: block;
-    overflow: hidden;
+    display: flex;
     padding-left: 8px;
 }
 #logo {
     display: block;
-    float: left;
     padding-top: 23px;
     width: 40px;
     height: 64px;
 }
 .project-info p {
     display: block;
-    float: left;
     padding-top: 18px;
     padding-left: 12px;
     font-family: "Tahoma", sans-serif;
@@ -112,7 +111,7 @@ fieldset .form-main {
     font-weight: 700;
     letter-spacing: 1.5px;
     color: #597496;
-    padding-bottom: 15px;
+    padding-bottom: 17px;
 }
 fieldset .form-education {
     border-top: 1px solid #e5e5e5;
@@ -147,7 +146,7 @@ fieldset .form-education {
 .form-education .sub-hint {
     display: block;
     padding-left: 95px;
-    padding-top: 6px;
+    padding-top: 5px;
     font-weight: bold;
     letter-spacing: 0.5px;
     font-size: 13px;
@@ -160,7 +159,7 @@ fieldset .school {
     letter-spacing: 0.7px;
     font-weight: bold;
     font-size: 17px;
-    padding-bottom: 17px;
+    padding-bottom: 14px;
 }
 fieldset .form-school {
     display: block;
@@ -194,7 +193,7 @@ fieldset .university {
     letter-spacing: 0.7px;
     font-weight: bold;
     font-size: 17px;
-    padding-bottom: 17px;
+    padding-bottom: 15px;
 }
 fieldset .form-university {
     display: block;
