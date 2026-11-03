@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ВКонтакте.ру | Регистрация</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="registraition-container">
+        <header>
+            <h1>Регистрация</h1>
+        </header>
+        
+        <section>
+            <div class="project-info">
+                <img id="logo" src="/images/Vkontakte.gif" width="30" height="30" alt="логотип ВКонтакте (буква В на голубом фоне)">
+                <p><strong>ВКонтакте.ру</strong> - сетевой проект, который поможет Вам узнать больше о людях, которые Вас окружают, а также 
+                    найти потерянных друзей и поддерживать с ними связь. Вы сможете делиться информацией, ограничивая круг 
+                    лиц, которым она будет доступна.
+                </p>
+            </div>
+        </section>
+
+        <form action="#" method="post">
+
+            <fieldset>
+                <legend class="name">Имя</legend>
+                <div class="form-main">
+                    <label for="name">
+                        <span class="label-text">Имя:</span>
+                        <input id="name" name="first-name" required>
+                        <span class="hint">Допускаются только настоящие имя и фамилия</span>
+                    </label>
+                    <label for="second-name">
+                        <span class="label-text">Фамилия:</span>
+                        <input id="second-name" name="second-name" required>
+                        <span class="hint">Остальные регистрации будут удаляться</span>
+                    </label>
+                    <label for="email">
+                        <span class="label-text">E-Mail:</span>
+                        <input id="email" type="email" name="email" required>
+                    </label>
+                    <label for="password">
+                        <span class="label-text">Пароль:</span>
+                        <input id="password" type="password" name="password" required>
+                    </label>
+                </div>
+            </fieldset>
+            
+            <fieldset>
+                <legend class="education">Образование</legend>
+                <div class="form-education">
+                        <label>
+                            <span class="label-text">Страна:</span>
+                        <select name="country">
+                            <option value="Belarus" selected>Беларусь</option>
+                            <option value="Russia">Россия</option>
+                            <option value="Azerbaijan">Азербайджан</option>
+                            <option value="Armenia">Армения</option>
+                            <option value="Kazakhstan">Казахстан</option>
+                            <option value="Kyrgyzstan">Кыргызстан</option>
+                        </select>
+                    </label>
+                    <label>
+                        <span class="label-text">Город:</span>
+                        <select name="city">
+                            <option value="Minsk" selected>Минск</option>
+                            <option value="Brest">Брест</option>
+                            <option value="Moscow">Москва</option>
+                            <option value="Baku">Баку</option>
+                            <option value="Astana">Астана</option>
+                            <option value="Bishkek">Бишкек</option>
+                        </select>
+                        <span class="sub-hint">Город, где Вы учились в школе или вузе:</span>
+                    </label>
+                </div>
+            </fieldset>
+
+            <fieldset>
+                <legend class="school">Школа</legend>
+                    <div class="form-school">
+                        <label>
+                            <span class="label-text">Школа:</span>
+                            <select name="school">
+                                <option value="" disabled selected hidden>- Выберите школу -</option>
+                                <option value="13">Школа № 13</option>
+                            </select>
+                        </label>
+                    </div>
+            </fieldset>
+
+            <fieldset>
+                <legend class="university">Университет</legend>
+                    <div class="form-university">
+                        <label>
+                            <span class="label-text">Вуз:</span>
+                            <select name="university">
+                                <option value="" disabled selected hidden>- Выберите ВУЗ -</option>
+                                <option value="BSU">БГУ</option>
+                                <option value="BSMU">БГМУ</option>
+                            </select>
+                        </label>
+                    </div>
+            </fieldset>
+
+            <div class="form-footer">
+                <button type="submit">Зарегистрироваться</button>
+                <p class="agreement">Фактом регистрации Вы соглашаетесь с <a href="#">Пользовательским сограшением</a></p>
+            </div>
+        </form>
+    </div>    
+</body>
+</html>
