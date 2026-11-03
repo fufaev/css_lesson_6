@@ -165,7 +165,7 @@ fieldset .form-school {
     display: block;
     border-top: 1px solid #e5e5e5;
     overflow: hidden;
-    padding-top: 19px;
+    padding-top: 17px;
 }
 .form-school label {
     display: block;
@@ -199,7 +199,7 @@ fieldset .form-university {
     display: block;
     border-top: 1px solid #e5e5e5;
     overflow: hidden;
-    padding-top: 19px;
+    padding-top: 17px;
 }
 .form-university label {
     display: block;
@@ -232,6 +232,10 @@ fieldset .form-university {
     font-size: 13px;
     padding-top: 9px;
     padding-left: 46px;
+    word-spacing: 0.2px;
+    letter-spacing: 0.5px;
+    padding-bottom: 170px;
+}
+.form-footer a {
     letter-spacing: 0.6px;
-    padding-bottom: 268px;
 }
